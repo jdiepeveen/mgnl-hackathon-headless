@@ -16,11 +16,9 @@
       <name>core</name>
       <version>*</version>
     </dependency>
-    <!--  Add other dependencies here, e.g the mte (magnolia templating essentials).
     <dependency>
-      <name>mte</name>
-      <version>0.7/*</version>
+      <name>rest-integration</name>
+      <version>2.1/*</version>
     </dependency>
-    -->
   </dependencies>
 </module>
