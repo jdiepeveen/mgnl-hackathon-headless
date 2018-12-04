@@ -1,0 +1,2 @@
+templateScript: /hackathon-headless-module/templates/components/dummy-component.ftl
+renderType: freemarker

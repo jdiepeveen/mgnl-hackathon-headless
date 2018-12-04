@@ -1,0 +1,42 @@
+# Ignore eclipse project files and settings
+.project
+.settings
+.classpath
+.externalToolBuilders
+.metadata
+Servers/
+
+# Ignore IntelliJ IDEA project files and settings
+.idea
+*.iml
+*.ipr
+overlays/
+
+# Ignore all target and bin folders
+target/
+
+# Ignore magnolia repositories
+webapp-data*/
+webapp-author-data*/
+
+# Ignore generated/copied webapp files and folders
+**/webapp/docroot/
+**/webapp/META-INF/
+**/webapp/WEB-INF/lib/
+**/webapp/WEB-INF/classes/
+**/webapp/LICENSE.txt
+**/webapp/NOTICE.txt
+**/webapp/README.txt
+**/webapp/templates/
+
+# JRebel
+rebel.xml
+
+# Ignore NPM related items
+node_modules/
+bower_components/
+
+# Some others
+.checkstyle
+*.DS_Store
+*.log
